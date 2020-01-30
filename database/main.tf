@@ -17,7 +17,7 @@ locals {
     CostCenter  = var.cost_center
   }
 
-  ver        = var.version != "" ? var.version : local.versions[var.type]
+  ver        = var.ver != "" ? var.ver : local.versions[var.type]
   project    = var.project != "" ? var.project : var.name
   username   = var.username != "" ? var.username : var.name
   identifier = var.identifier != "" ? var.identifier : var.name

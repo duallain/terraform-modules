@@ -32,7 +32,7 @@ variable "username" {
   default = ""
 }
 
-variable "version" {
+variable "ver" {
   default = ""
 }
 
